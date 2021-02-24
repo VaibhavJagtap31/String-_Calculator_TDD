@@ -27,4 +27,4 @@ Remember to refactor after each passing test ———————————�
 
 8 . Allow multiple delimiters like this: “//[delim1][delim2]\n” for example “//[][%]\n12%3” should return 6. ———————————————————————————————— 
 
-9 . Make sure you can also handle multiple delimiters with length longer than one char ————————————————————————————————
+9 . Make sure you can also handle multiple delimiters with length longer than one char ———————————————————————————————
