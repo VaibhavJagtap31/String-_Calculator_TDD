@@ -1,10 +1,12 @@
 # String_Calculator_TDD
 Creating a simple String calculator using the TDD approach
 
-String Calculator ————————————————————————————————
+String Calculator 
 
 1 . Create a simple String calculator with a method signature:
+————————————————————————————————
 int Add(string numbers)
+————————————————————————————————
 The method can take up to two numbers, separated by commas, and will return their sum. 
 for example “” or “1” or “1,2” as inputs. (for an empty string it will return 0) 
 Hints:
@@ -24,7 +26,7 @@ Hints:
 4 . Support different delimiters 
   1. to change a delimiter, the beginning of the string will contain a separate line that looks like this: “//[delimiter]\n[numbers…]” for example “//;\n1;2” should return three     where the default delimiter is ‘;’ . 
   2. the first line is optional. all existing scenarios should still be supported 
- ———————————————————————————————— 
+———————————————————————————————— 
 
 5 . Calling Add with a negative number will throw an exception “negatives not allowed” - and the negative that was passed. if there are multiple negatives, show all of them in the exception message.
 ———————————————————————————————— 
